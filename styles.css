@@ -74,6 +74,11 @@ section.header:hover {
   font-weight: 900;
 }
 
+.header__menu-tab--link:hover {
+  transition: ease-in-out .2s;
+  color: hsl(357, 92%, 47%);
+}
+
 .header__section-right {
   font-size: 1.2rem;
   cursor: pointer;
@@ -90,6 +95,12 @@ section.header:hover {
   padding: 0 9px;
   text-decoration: none;
   color: var(--Netflix-white);
+}
+
+.header__section-right a:hover,
+.header__section-right i:hover {
+  transition: ease-in-out .2s;
+  color: hsl(357, 92%, 47%);
 }
 
 .lgimg__content-area {
@@ -160,6 +171,12 @@ section.header:hover {
   margin: 0px 7px 0 0;
 }
 
+.button1.button1:hover {
+  transition: ease-in-out .3s;
+  background-color: hsl(357, 92%, 47%);
+  box-shadow: 0 0 5px 0 hsl(357, 92%, 37%);
+}
+
 .button1__txt,
 .fa-play {
   padding: 0 5px;
@@ -174,7 +191,7 @@ section.header:hover {
   border-radius: 8%;
   border: none;
   background-color: transparent;
-  background: rgb(143, 143, 143);
+  background: hsl(0, 0%, 56%);
 }
 
 .button2__txt,
@@ -183,6 +200,12 @@ section.header:hover {
   color: var(--Netflix-white);
   font-weight: 600;
   padding: 0 5px;
+}
+
+.button2.button2:hover{
+  transition: ease-in-out .3s;
+  background-color: hsl(0, 0%, 36%);
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 36%);
 }
 
 .video__section {
@@ -250,46 +273,46 @@ section.header:hover {
 }
 
 .video6 {
- background: url(https://images-na.ssl-images-amazon.com/images/I/61mTsKezTlL._AC_SX466_.jpg);
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- background-repeat: no-repeat;
- }
+  background: url(https://images-na.ssl-images-amazon.com/images/I/61mTsKezTlL._AC_SX466_.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
- .video7 {
-   background: url(https://i.pinimg.com/originals/e0/02/70/e00270957104fdb69e4622633886ffd5.jpg);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+.video7 {
+  background: url(https://i.pinimg.com/originals/e0/02/70/e00270957104fdb69e4622633886ffd5.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
- .video8 {
-   background: url(https://i1.wp.com/www.delaware-surf-fishing.com/wp-content/uploads/2016/12/rogue-one.jpg?fit=2560%2C1600&ssl=1);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+.video8 {
+  background: url(https://i1.wp.com/www.delaware-surf-fishing.com/wp-content/uploads/2016/12/rogue-one.jpg?fit=2560%2C1600&ssl=1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
- .video9 {
-   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVorrO7KFm1kXGxrKGQ3esDlv2qE7mkZXmgQ&usqp=CAU);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+.video9 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVorrO7KFm1kXGxrKGQ3esDlv2qE7mkZXmgQ&usqp=CAU);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
- .video10 {
-   background: url(https://images-na.ssl-images-amazon.com/images/I/41lzM%2B1w8iL._AC_SX466_.jpg);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+.video10 {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/41lzM%2B1w8iL._AC_SX466_.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
