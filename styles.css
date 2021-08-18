@@ -41,7 +41,7 @@ section.header:hover {
   align-items: center;
   color: var(--Netflix-white);
   font-weight: bold;
-  margin: 10px 35px 0px;
+  margin: 0px 35px 0px;
 
 }
 
@@ -202,7 +202,7 @@ section.header:hover {
   padding: 0 5px;
 }
 
-.button2.button2:hover{
+.button2.button2:hover {
   transition: ease-in-out .3s;
   background-color: hsl(0, 0%, 36%);
   box-shadow: 0 0 5px 0 hsl(0, 0%, 36%);
